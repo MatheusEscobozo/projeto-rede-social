@@ -44,13 +44,16 @@ iframe{
     position: absolute;
     top: 50%;
     left: 50%;
-    
+
     
     height: 472px;
     width: 269px;
     transform: translate(-50%, -50%);
 }
-
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 section#icones {
     text-align: right;
 }
